@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap');
 /* Goolge Fonts CDN */
 
+/* Common CSS Part Start */
 body{
     
 }
@@ -12,15 +13,29 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 .btn{
-    padding: 20px 30px;
+    padding: 18px 30px;
     font-size: 18px;
     font-weight: 600;
     background: rgba(182, 140, 90, 1);
     color: white;
+    border: none;
 }
-/* Navbar Section Start */
+/* Common CSS Part End */
+
+/* Banner Section Start */
+.banner{
+    background:linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%),url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position:center ;
+    padding: 200px 0px;
+    background-size: cover;
+}
+.banner-text input{
+    padding: 18px 30px;
+    color: #A0A0A0;
+    border: none;
+    border-radius: 6px;
+}
 
 
-
-
-/* Navbar Section End */
+/* Banner Section End */
