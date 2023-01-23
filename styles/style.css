@@ -50,4 +50,14 @@ p{
     font-size: 25px;
     color: rgba(182, 140, 90, 1);
 }
+
 /* Practice Area Section End */
+
+/* Client Say part Start */
+
+.carousel-item img{
+    height: 400px;
+    width: auto;
+}
+
+/* Client Say part End */
