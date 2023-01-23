@@ -39,3 +39,15 @@ p{
 
 
 /* Banner Section End */
+
+/* Practice Area Section Start */
+.card:hover{
+    background:  linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.377) 100%);
+    transition: all linear .5s;
+    border: 2px solid #3f3e3e;
+}
+.icon i{
+    font-size: 25px;
+    color: rgba(182, 140, 90, 1);
+}
+/* Practice Area Section End */
