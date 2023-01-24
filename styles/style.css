@@ -1,7 +1,5 @@
 /* Goolge Fonts CDN */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap');
-/* Goolge Fonts CDN */
-
 /* Common CSS Part Start */
 body{
     
@@ -20,8 +18,6 @@ p{
     color: white;
     border: none;
 }
-/* Common CSS Part End */
-
 /* Banner Section Start */
 .banner{
     background:linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%),url(../images/banner.png);
@@ -36,10 +32,6 @@ p{
     border: none;
     border-radius: 6px;
 }
-
-
-/* Banner Section End */
-
 /* Practice Area Section Start */
 .card:hover{
     background:  linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.377) 100%);
@@ -50,28 +42,22 @@ p{
     font-size: 25px;
     color: rgba(182, 140, 90, 1);
 }
-
-/* Practice Area Section End */
-
 /* Client Say part Start */
-
 .carousel-item img{
-    height: 400px;
+    height: 500px;
     width: auto;
 }
-
-/* Client Say part End */
-
+.carousel-caption img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 /* FAQ Section Start */
-
 .accordion-item{
     background:#F3F3F3;
     
 }
-
-/* FAQ Section End */
-
-/* Contact Section */
+/* Contact Section Start*/
 .form input, textarea{
     text-align: left;
     padding-right: 180px;
@@ -86,8 +72,6 @@ p{
 .btn-form{
     padding: 20px 130px;
 }
-/* Contact Section */
-
 /* Footer Section */
 .sub-icon input{
     background: rgba(243, 243, 243, 1);
@@ -97,4 +81,3 @@ p{
     padding: 20px 20px;
     border-radius: 5px;
 }
-/* Footer Section */
