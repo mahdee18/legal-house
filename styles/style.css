@@ -44,7 +44,7 @@ p{
 .card:hover{
     background:  linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.377) 100%);
     transition: all linear .5s;
-    border: 2px solid #3f3e3e;
+    border: 1px solid #3f3e3e;
 }
 .icon i{
     font-size: 25px;
@@ -70,3 +70,22 @@ p{
 }
 
 /* FAQ Section End */
+
+/* Contact Section */
+.form input, textarea{
+    text-align: left;
+    padding-right: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: rgba(243, 243, 243, 1);
+    border: none;
+    margin-bottom: 35px;
+}
+.btn-form{
+    padding: 20px 190px;
+}
+/* Contact Section */
+
+/* Footer Section */
